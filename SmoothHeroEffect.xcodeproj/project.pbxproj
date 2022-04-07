@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5D47B6427FD8B9400A7DBA1 /* SmoothHeroEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D47B6327FD8B9400A7DBA1 /* SmoothHeroEffectApp.swift */; };
+		E5D47B6627FD8B9400A7DBA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D47B6527FD8B9400A7DBA1 /* ContentView.swift */; };
+		E5D47B6827FD8B9500A7DBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D47B6727FD8B9500A7DBA1 /* Assets.xcassets */; };
+		E5D47B6B27FD8B9500A7DBA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D47B6A27FD8B9500A7DBA1 /* Preview Assets.xcassets */; };
+		E5D47B7427FD8BDA00A7DBA1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D47B7327FD8BDA00A7DBA1 /* Home.swift */; };
+		E5D47B7627FD8BEE00A7DBA1 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D47B7527FD8BEE00A7DBA1 /* SnapCarousel.swift */; };
+		E5D47B7827FD8C6200A7DBA1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D47B7727FD8C6200A7DBA1 /* Movie.swift */; };
+		E5D47B7A27FDCB3A00A7DBA1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D47B7927FDCB3A00A7DBA1 /* DetailView.swift */; };
+		E5D47B7E27FDDD1200A7DBA1 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D47B7D27FDDD1200A7DBA1 /* OffsetModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5D47B6027FD8B9400A7DBA1 /* SmoothHeroEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothHeroEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D47B6327FD8B9400A7DBA1 /* SmoothHeroEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothHeroEffectApp.swift; sourceTree = "<group>"; };
+		E5D47B6527FD8B9400A7DBA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5D47B6727FD8B9500A7DBA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5D47B6A27FD8B9500A7DBA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5D47B7327FD8BDA00A7DBA1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E5D47B7527FD8BEE00A7DBA1 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		E5D47B7727FD8C6200A7DBA1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E5D47B7927FDCB3A00A7DBA1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E5D47B7D27FDDD1200A7DBA1 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5D47B5D27FD8B9400A7DBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5D47B5727FD8B9400A7DBA1 = {
+			isa = PBXGroup;
+			children = (
+				E5D47B6227FD8B9400A7DBA1 /* SmoothHeroEffect */,
+				E5D47B6127FD8B9400A7DBA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5D47B6127FD8B9400A7DBA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5D47B6027FD8B9400A7DBA1 /* SmoothHeroEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5D47B6227FD8B9400A7DBA1 /* SmoothHeroEffect */ = {
+			isa = PBXGroup;
+			children = (
+				E5D47B6327FD8B9400A7DBA1 /* SmoothHeroEffectApp.swift */,
+				E5D47B6527FD8B9400A7DBA1 /* ContentView.swift */,
+				E5D47B7227FD8BC700A7DBA1 /* Model */,
+				E5D47B7127FD8BC100A7DBA1 /* View */,
+				E5D47B6727FD8B9500A7DBA1 /* Assets.xcassets */,
+				E5D47B6927FD8B9500A7DBA1 /* Preview Content */,
+			);
+			path = SmoothHeroEffect;
+			sourceTree = "<group>";
+		};
+		E5D47B6927FD8B9500A7DBA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E5D47B6A27FD8B9500A7DBA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5D47B7127FD8BC100A7DBA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5D47B7327FD8BDA00A7DBA1 /* Home.swift */,
+				E5D47B7527FD8BEE00A7DBA1 /* SnapCarousel.swift */,
+				E5D47B7927FDCB3A00A7DBA1 /* DetailView.swift */,
+				E5D47B7D27FDDD1200A7DBA1 /* OffsetModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5D47B7227FD8BC700A7DBA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5D47B7727FD8C6200A7DBA1 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5D47B5F27FD8B9400A7DBA1 /* SmoothHeroEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5D47B6E27FD8B9500A7DBA1 /* Build configuration list for PBXNativeTarget "SmoothHeroEffect" */;
+			buildPhases = (
+				E5D47B5C27FD8B9400A7DBA1 /* Sources */,
+				E5D47B5D27FD8B9400A7DBA1 /* Frameworks */,
+				E5D47B5E27FD8B9400A7DBA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmoothHeroEffect;
+			productName = SmoothHeroEffect;
+			productReference = E5D47B6027FD8B9400A7DBA1 /* SmoothHeroEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5D47B5827FD8B9400A7DBA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E5D47B5F27FD8B9400A7DBA1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = E5D47B5B27FD8B9400A7DBA1 /* Build configuration list for PBXProject "SmoothHeroEffect" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5D47B5727FD8B9400A7DBA1;
+			productRefGroup = E5D47B6127FD8B9400A7DBA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5D47B5F27FD8B9400A7DBA1 /* SmoothHeroEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5D47B5E27FD8B9400A7DBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D47B6B27FD8B9500A7DBA1 /* Preview Assets.xcassets in Resources */,
+				E5D47B6827FD8B9500A7DBA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5D47B5C27FD8B9400A7DBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D47B6627FD8B9400A7DBA1 /* ContentView.swift in Sources */,
+				E5D47B7A27FDCB3A00A7DBA1 /* DetailView.swift in Sources */,
+				E5D47B7627FD8BEE00A7DBA1 /* SnapCarousel.swift in Sources */,
+				E5D47B7E27FDDD1200A7DBA1 /* OffsetModifier.swift in Sources */,
+				E5D47B7427FD8BDA00A7DBA1 /* Home.swift in Sources */,
+				E5D47B6427FD8B9400A7DBA1 /* SmoothHeroEffectApp.swift in Sources */,
+				E5D47B7827FD8C6200A7DBA1 /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5D47B6C27FD8B9500A7DBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5D47B6D27FD8B9500A7DBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5D47B6F27FD8B9500A7DBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmoothHeroEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = 6646H966Z4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = My.SmoothHeroEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E5D47B7027FD8B9500A7DBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmoothHeroEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = 6646H966Z4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = My.SmoothHeroEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5D47B5B27FD8B9400A7DBA1 /* Build configuration list for PBXProject "SmoothHeroEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D47B6C27FD8B9500A7DBA1 /* Debug */,
+				E5D47B6D27FD8B9500A7DBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5D47B6E27FD8B9500A7DBA1 /* Build configuration list for PBXNativeTarget "SmoothHeroEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D47B6F27FD8B9500A7DBA1 /* Debug */,
+				E5D47B7027FD8B9500A7DBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5D47B5827FD8B9400A7DBA1 /* Project object */;
+}
